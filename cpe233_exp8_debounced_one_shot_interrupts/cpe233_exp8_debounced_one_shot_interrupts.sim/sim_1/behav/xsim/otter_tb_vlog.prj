@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../cpe233_exp8_debounced_one_shot_interrupts.srcs/sources_1/imports/imports/new/ALU_WRAPPER.sv" \
+"../../../../cpe233_exp8_debounced_one_shot_interrupts.srcs/sources_1/imports/imports/Downloads/CSR_v1_03.sv" \
+"../../../../cpe233_exp8_debounced_one_shot_interrupts.srcs/sources_1/imports/imports/new/OTTER_MCU.sv" \
+"../../../../cpe233_exp8_debounced_one_shot_interrupts.srcs/sources_1/imports/Downloads/OTTER_Wrapper_v1_07.sv" \
+"../../../../cpe233_exp8_debounced_one_shot_interrupts.srcs/sources_1/imports/new/REG_FILE_WRAPPER.sv" \
+"../../../../cpe233_exp8_debounced_one_shot_interrupts.srcs/sources_1/imports/new/alu.sv" \
+"../../../../cpe233_exp8_debounced_one_shot_interrupts.srcs/sources_1/imports/Downloads/control_unit_dcdr_v_1_04-1.sv" \
+"../../../../cpe233_exp8_debounced_one_shot_interrupts.srcs/sources_1/imports/Downloads/control_unit_fsm_v_1_06.sv" \
+"../../../../cpe233_exp8_debounced_one_shot_interrupts.srcs/sources_1/imports/Downloads/dbounce_v1_01-1.sv" \
+"../../../../cpe233_exp8_debounced_one_shot_interrupts.srcs/sources_1/imports/Downloads/one_shot_posneg_v1_02-1.sv" \
+"../../../../cpe233_exp8_debounced_one_shot_interrupts.srcs/sources_1/imports/Downloads/otter_memory_v1_06.sv" \
+"../../../../cpe233_exp8_debounced_one_shot_interrupts.srcs/sources_1/imports/imports/new/pc_mod.sv" \
+"../../../../cpe233_exp8_debounced_one_shot_interrupts.srcs/sources_1/imports/Downloads/reg_file_v_1_01.sv" \
+
+verilog xil_defaultlib  \
+"../../../../cpe233_exp8_debounced_one_shot_interrupts.srcs/sim_1/imports/Downloads/Exp6_testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

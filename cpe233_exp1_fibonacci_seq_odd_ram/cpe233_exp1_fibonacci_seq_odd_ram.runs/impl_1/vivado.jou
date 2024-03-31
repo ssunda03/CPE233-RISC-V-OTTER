@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Sep 28 12:32:11 2022
+# Process ID: 10368
+# Current directory: C:/Users/srini/Documents/Vivado/cpe233_exp1_fibonacci_seq_odd_ram/cpe233_exp1_fibonacci_seq_odd_ram.runs/impl_1
+# Command line: vivado.exe -log main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source main.tcl -notrace
+# Log file: C:/Users/srini/Documents/Vivado/cpe233_exp1_fibonacci_seq_odd_ram/cpe233_exp1_fibonacci_seq_odd_ram.runs/impl_1/main.vdi
+# Journal file: C:/Users/srini/Documents/Vivado/cpe233_exp1_fibonacci_seq_odd_ram/cpe233_exp1_fibonacci_seq_odd_ram.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace

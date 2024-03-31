@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Sep 23 15:27:14 2023
+# Process ID: 21176
+# Current directory: C:/Users/srini/Documents/Vivado/CPE233/cpe233_exp2_program_counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10460 C:\Users\srini\Documents\Vivado\CPE233\cpe233_exp2_program_counter\cpe233_exp2_program_counter.xpr
+# Log file: C:/Users/srini/Documents/Vivado/CPE233/cpe233_exp2_program_counter/vivado.log
+# Journal file: C:/Users/srini/Documents/Vivado/CPE233/cpe233_exp2_program_counter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/srini/Documents/Vivado/CPE233/cpe233_exp2_program_counter/cpe233_exp2_program_counter.xpr
+update_compile_order -fileset sources_1

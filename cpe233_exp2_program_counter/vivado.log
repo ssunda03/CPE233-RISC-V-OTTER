@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Sep 23 15:27:14 2023
+# Process ID: 21176
+# Current directory: C:/Users/srini/Documents/Vivado/CPE233/cpe233_exp2_program_counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10460 C:\Users\srini\Documents\Vivado\CPE233\cpe233_exp2_program_counter\cpe233_exp2_program_counter.xpr
+# Log file: C:/Users/srini/Documents/Vivado/CPE233/cpe233_exp2_program_counter/vivado.log
+# Journal file: C:/Users/srini/Documents/Vivado/CPE233/cpe233_exp2_program_counter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/srini/Documents/Vivado/CPE233/cpe233_exp2_program_counter/cpe233_exp2_program_counter.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/srini/Documents/Vivado/cpe233_exp2_program_counter' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/srini/Documents/Vivado/CPE233/cpe233_exp2_program_counter/cpe233_exp2_program_counter.gen/sources_1', nor could it be found using path 'C:/Users/srini/Documents/Vivado/cpe233_exp2_program_counter/cpe233_exp2_program_counter.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/ViINFO: [IP_Flow 19-2313open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:06 . Memory (MB): peak = 1005.754 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 23 15:27:55 2023...
+has been returned to its previous state.
+INFO: [Common 17-344] 'open_project' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 23 15:27:57 2023...

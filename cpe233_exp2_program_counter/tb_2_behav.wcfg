@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="26880fs"></ZoomStartTime>
+      <ZoomEndTime time="140681fs"></ZoomEndTime>
+      <Cursor1Time time="97920fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="182"></NameColumnWidth>
+      <ValueColumnWidth column_width="77"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb_2/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_2/pcWrite" type="logic">
+      <obj_property name="ElementShortName">pcWrite</obj_property>
+      <obj_property name="ObjectShortName">pcWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_2/pcSource" type="array">
+      <obj_property name="ElementShortName">pcSource[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pcSource[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_2/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_2/my_test/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_2/my_test/jal" type="array">
+      <obj_property name="ElementShortName">jal[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jal[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_2/my_test/jalr" type="array">
+      <obj_property name="ElementShortName">jalr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jalr[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_2/my_test/branch" type="array">
+      <obj_property name="ElementShortName">branch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branch[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_2/s_type_imm" type="array">
+      <obj_property name="ElementShortName">s_type_imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_type_imm[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_2/u_type_imm" type="array">
+      <obj_property name="ElementShortName">u_type_imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">u_type_imm[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

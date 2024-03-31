@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Nov 28 19:09:00 2022
+# Process ID: 14684
+# Current directory: C:/Users/srini/Documents/Vivado/cpe233_exp8_debounced_one_shot_interrupts
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14732 C:\Users\srini\Documents\Vivado\cpe233_exp8_debounced_one_shot_interrupts\cpe233_exp8_debounced_one_shot_interrupts.xpr
+# Log file: C:/Users/srini/Documents/Vivado/cpe233_exp8_debounced_one_shot_interrupts/vivado.log
+# Journal file: C:/Users/srini/Documents/Vivado/cpe233_exp8_debounced_one_shot_interrupts\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/srini/Documents/Vivado/cpe233_exp8_debounced_one_shot_interrupts/cpe233_exp8_debounced_one_shot_interrupts.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/srini/Documents/Vivado/cpe233_exp8_debounced_one_shot_interrupts/cpe233_exp8_debounced_one_shot_interrupts.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 28 19:21:03 2022...

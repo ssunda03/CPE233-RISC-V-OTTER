@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1695787487">
+  <File Type="PA-TCL" Name="OTTER_Wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="OTTER_Wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="OTTER_Wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="OTTER_Wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="OTTER_Wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="OTTER_Wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="OTTER_Wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="OTTER_Wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="OTTER_Wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/imports/new/ALU_WRAPPER.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpe233_exp7_risc-v_with_interrupts/cpe233_exp7_risc-v_with_interrupts.srcs/sources_1/imports/new/ALU_WRAPPER.sv"/>
+        <Attr Name="ImportTime" Val="1669242460"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/Downloads/CSR_v1_03.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpe233_exp7_risc-v_with_interrupts/cpe233_exp7_risc-v_with_interrupts.srcs/sources_1/imports/Downloads/CSR_v1_03.sv"/>
+        <Attr Name="ImportTime" Val="1669152477"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/new/OTTER_MCU.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpe233_exp7_risc-v_with_interrupts/cpe233_exp7_risc-v_with_interrupts.srcs/sources_1/imports/new/OTTER_MCU.sv"/>
+        <Attr Name="ImportTime" Val="1669241231"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/REG_FILE_WRAPPER.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpe233_exp7_risc-v_with_interrupts/cpe233_exp7_risc-v_with_interrupts.srcs/sources_1/imports/new/REG_FILE_WRAPPER.sv"/>
+        <Attr Name="ImportTime" Val="1668108331"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/alu.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpe233_RISC-V_MCU_no_interrupts/cpe233_RISC-V_MCU_no_interrupts.srcs/sources_1/imports/sources_1/imports/Vivado/cpe233_exp3_ALU/cpe233_exp3_ALU.srcs/sources_1/new/alu.sv"/>
+        <Attr Name="ImportTime" Val="1667884207"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/control_unit_dcdr_v_1_04-1.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpe233_RISC-V_MCU_no_interrupts/cpe233_RISC-V_MCU_no_interrupts.srcs/sources_1/imports/sources_1/imports/Downloads/control_unit_dcdr_v_1_04-1.sv"/>
+        <Attr Name="ImportTime" Val="1669242006"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/control_unit_fsm_v_1_06.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpe233_RISC-V_MCU_no_interrupts/cpe233_RISC-V_MCU_no_interrupts.srcs/sources_1/imports/sources_1/imports/Downloads/control_unit_fsm_v_1_06.sv"/>
+        <Attr Name="ImportTime" Val="1669243203"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/dbounce_v1_01-1.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/dbounce_v1_01-1.sv"/>
+        <Attr Name="ImportTime" Val="1669663036"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/one_shot_posneg_v1_02-1.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/one_shot_posneg_v1_02-1.sv"/>
+        <Attr Name="ImportTime" Val="1669663027"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/otter_memory_v1_06.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/otter_memory_v1_06.sv"/>
+        <Attr Name="ImportTime" Val="1664826354"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/new/pc_mod.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpe233_exp7_risc-v_with_interrupts/cpe233_exp7_risc-v_with_interrupts.srcs/sources_1/imports/new/pc_mod.sv"/>
+        <Attr Name="ImportTime" Val="1669243796"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/reg_file_v_1_01.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpe233_RISC-V_MCU_no_interrupts/cpe233_RISC-V_MCU_no_interrupts.srcs/sources_1/imports/sources_1/imports/Downloads/reg_file_v_1_01.sv"/>
+        <Attr Name="ImportTime" Val="1667200978"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/OTTER_Wrapper_v1_07.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/OTTER_Wrapper_v1_07.sv"/>
+        <Attr Name="ImportTime" Val="1669072414"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/otter_memory.mem">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="OTTER_Wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Downloads/Basys3_Master_v1_03.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpe233_RISC-V_MCU_no_interrupts/cpe233_RISC-V_MCU_no_interrupts.srcs/constrs_1/imports/Downloads/Basys3_Master_v1_03.xdc"/>
+        <Attr Name="ImportTime" Val="1668458162"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
